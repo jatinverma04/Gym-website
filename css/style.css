@@ -1,0 +1,28 @@
+/* css reset */
+body {
+    color: azure;
+  margin: 0px;
+  padding: 0px;
+  background: url("../img/bg.jpg");
+}
+
+.left {
+    display: inline-block;
+  border: 2px solid red;
+  position: absolute;
+    left: 34px;
+    top: 0px;
+}
+.mid {
+    display: block;
+    width: 33%;
+    margin: 12px auto;
+  border: 2px solid rgb(222, 233, 9);
+}
+.right {
+    position: absolute;
+    right: 34px;
+    top: 0px;
+    display: inline-block;
+  border: 2px solid rgb(14, 234, 22);
+}
